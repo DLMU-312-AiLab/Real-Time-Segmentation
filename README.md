@@ -8,7 +8,9 @@ Now,the codes can only work on the cityscapes,because I have not complete the co
 
 3.The command to train the code is:
 
+```bash
 python main.py --cuda --model "choicemodel" train --datadir data  --num-epochs 30 --num-workers 4 --batch-size 4 --num-classes 20
+```
 
 # dependency
 pytorch>=0.4.0
